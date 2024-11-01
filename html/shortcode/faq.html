@@ -1,0 +1,33 @@
+
+<p>The &#91;faq&#93; shortcode can be used to include a FAQ group.</p>
+
+<pre class="lang:xhtml decode:true">
+&#91;faq id="123"&#93;
+</pre>
+
+<p>By default, the &#91;faq&#93; shortcode includes Questions sorted by title. You can change the default sort order using the 'order' and 'orderby' shortcode attribute.</p>
+
+<pre class="lang:xhtml decode:true">
+&#91;faq id="123" order="ASC" orderby="menu_order"&#93;
+</pre>
+
+<p>See the <a href="https://developer.wordpress.org/reference/classes/wp_query/#order-orderby-parameters">Order and Orderby Parameters section in the WordPress WP_Query code reference</a> for additional information on these WordPress query attributes.</p>
+
+<p>You can change the default heading level and the FAQ title using the 'heading' and 'title' attributes.</p>
+
+<pre class="lang:xhtml decode:true">
+&#91;faq id="123" heading="h2" title="Alternate FAQ Title"&#93;
+</pre>
+
+<p>The 'show_answer_nums' attribute can be used to show one or more answers by default when the "Click Question to Show/Hide Answer" option is enabled.</p>
+
+<pre class="lang:xhtml decode:true">
+&#91;faq id="123" show_answer_nums="1, 2"&#93;
+</pre>
+
+<p>The 'show_answer_ids' attribute can be used to show one or more answers (by question ID) by default when the "Click Question to Show/Hide Answer" option is enabled.</p>
+
+<pre class="lang:xhtml decode:true">
+&#91;faq id="123" show_answer_ids="456"&#93;
+</pre>
+
